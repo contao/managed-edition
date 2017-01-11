@@ -11,14 +11,13 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "contao/manager-bundle": "dev-hotfix/coding-style",
+        "contao/manager-bundle": "dev-develop",
         "contao/calendar-bundle": "^4.3",
         "contao/comments-bundle": "^4.3",
         "contao/faq-bundle": "^4.3",
         "contao/listing-bundle": "^4.3",
         "contao/news-bundle": "^4.3",
-        "contao/newsletter-bundle": "^4.3",
-        "lexik/maintenance-bundle": "^2.0"
+        "contao/newsletter-bundle": "^4.3"
     },
     "config": {
         "component-dir": "assets"
