@@ -11,26 +11,17 @@
     ],
     "require": {
         "php": ">=5.5.0",
+        "contao/manager-bundle": "dev-hotfix/coding-style",
         "contao/calendar-bundle": "^4.3",
         "contao/comments-bundle": "^4.3",
-        "contao/core-bundle": "^4.3",
         "contao/faq-bundle": "^4.3",
-        "contao/installation-bundle": "^1.2",
         "contao/listing-bundle": "^4.3",
-        "contao/manager-bundle": "dev-hotfix/coding-style",
         "contao/news-bundle": "^4.3",
         "contao/newsletter-bundle": "^4.3",
         "lexik/maintenance-bundle": "^2.0"
     },
     "config": {
         "component-dir": "assets"
-    },
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-bin-dir": "bin",
-        "symfony-var-dir": "var",
-        "symfony-web-dir": "web",
-        "symfony-assets-install": "relative"
     },
     "scripts": {
         "post-install-cmd": [
