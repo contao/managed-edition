@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <project name="Contao" default="build" basedir=".">
-  <exec executable="git" outputProperty="version">
+  <exec executable="git" outputProperty="version" checkreturn="true">
     <arg value="describe" />
     <arg value="--tags" />
   </exec>
 
-  <target name="build" depends="clone, update, purge, pack, cleanup">
+  <target name="build" depends="clone, update, purge, prepare, pack, cleanup">
     <echo message="Contao ${version} build complete" />
   </target>
 
   <target name="clone">
-    <echo message="Cloning into contao-${version}" />
+    <echo message="Cloning into contao-managed-${version}" />
     <exec executable="git">
       <arg value="clone" />
       <arg value="." />
-      <arg value="contao-${version}" />
+      <arg value="contao-managed-${version}" />
     </exec>
-    <exec executable="git" dir="contao-${version}">
+    <exec executable="git" dir="contao-managed-${version}">
       <arg value="checkout" />
       <arg value="--quiet" />
       <arg value="${version}" />
     </exec>
-    <exec executable="git" dir="contao-${version}">
+    <exec executable="git" dir="contao-managed-${version}">
       <arg value="reset" />
       <arg value="--hard" />
     </exec>
   </target>
 
   <target name="update">
-    <exec executable="composer" dir="contao-${version}" passthru="true">
+    <exec executable="composer" dir="contao-managed-${version}" passthru="true">
       <arg value="install" />
       <arg value="--prefer-dist" />
       <arg value="--no-dev" />
@@ -36,38 +36,45 @@
     </exec>
   </target>
 
+  <target name="prepare">
+    <mkdir dir="contao-managed-${version}/app" />
+    <exec executable="vendor/bin/contao-console" dir="contao-managed-${version}">
+      <arg value="contao:install-web-dir" />
+    </exec>
+  </target>
+
   <target name="purge">
-    <delete dir="contao-${version}/.git" />
-    <delete dir="contao-${version}/vendor/psr/log/Psr/Log/Test" />
-    <delete dir="contao-${version}/vendor/tecnickcom/tcpdf/examples" />
+    <delete dir="contao-managed-${version}/.git" />
+    <delete dir="contao-managed-${version}/vendor/psr/log/Psr/Log/Test" />
+    <delete dir="contao-managed-${version}/vendor/tecnickcom/tcpdf/examples" />
     <delete includeemptydirs="true">
-      <fileset dir="contao-${version}/vendor" includes="*/*/doc/**,*/*/docs/**,*/*/notes/**,*/*/site/**,*/*/test/**,*/*/tests/**,*/*/Test/**,*/*/Tests/**" />
+      <fileset dir="contao-managed-${version}/vendor" includes="*/*/doc/**,*/*/docs/**,*/*/notes/**,*/*/site/**,*/*/test/**,*/*/tests/**,*/*/Test/**,*/*/Tests/**" />
     </delete>
     <delete includeemptydirs="true">
-      <fileset dir="contao-${version}/vendor/symfony" includes="*/*/*/*/Test/**,*/*/*/*/*/Test/**,*/*/*/*/Tests/**,*/*/*/*/*/Tests/**,*/*/*/*/*/*/Tests/**" />
+      <fileset dir="contao-managed-${version}/vendor/symfony" includes="*/*/*/*/Test/**,*/*/*/*/*/Test/**,*/*/*/*/Tests/**,*/*/*/*/*/Tests/**,*/*/*/*/*/*/Tests/**" />
     </delete>
     <delete includeemptydirs="true">
-      <fileset dir="contao-${version}/vendor/tecnickcom/tcpdf/fonts" excludes="courier.php,freeserif*.*,helvetica*.php" />
+      <fileset dir="contao-managed-${version}/vendor/tecnickcom/tcpdf/fonts" excludes="courier.php,freeserif*.*,helvetica*.php" />
     </delete>
-    <delete dir="contao-${version}/vendor/contao/core-bundle/tests" />
+    <delete dir="contao-managed-${version}/vendor/contao/core-bundle/tests" />
   </target>
 
   <target name="pack">
-    <echo message="Packing contao-${version}.zip" />
+    <echo message="Packing contao-managed-${version}.zip" />
     <exec executable="zip">
       <arg value="-r" />
-      <arg value="contao-${version}.zip" />
-      <arg value="contao-${version}/" />
+      <arg value="contao-managed-${version}.zip" />
+      <arg value="contao-managed-${version}/" />
     </exec>
-    <echo message="Packing contao-${version}.tar.gz" />
+    <echo message="Packing contao-managed-${version}.tar.gz" />
     <exec executable="tar">
       <arg value="-czf" />
-      <arg value="contao-${version}.tar.gz" />
-      <arg value="contao-${version}/" />
+      <arg value="contao-managed-${version}.tar.gz" />
+      <arg value="contao-managed-${version}/" />
     </exec>
   </target>
 
   <target name="cleanup">
-    <delete dir="contao-${version}" />
+    <delete dir="contao-managed-${version}" />
   </target>
 </project>
