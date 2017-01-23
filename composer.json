@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "contao/manager-bundle": "dev-develop",
+        "contao/manager-bundle": "4.3.*",
         "contao/calendar-bundle": "^4.3",
         "contao/comments-bundle": "^4.3",
         "contao/faq-bundle": "^4.3",
