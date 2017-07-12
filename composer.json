@@ -19,6 +19,9 @@
         "contao/news-bundle": "^4.4",
         "contao/newsletter-bundle": "^4.4"
     },
+    "conflict": {
+        "contao/core-bundle": "<4.4.1"
+    },
     "config": {
         "component-dir": "assets"
     },
