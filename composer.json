@@ -10,17 +10,19 @@
         }
     ],
     "require": {
-        "php": "^5.6|^7.0",
-        "contao/manager-bundle": "4.4.*",
-        "contao/calendar-bundle": "^4.4",
-        "contao/comments-bundle": "^4.4",
-        "contao/faq-bundle": "^4.4",
-        "contao/listing-bundle": "^4.4",
-        "contao/news-bundle": "^4.4",
-        "contao/newsletter-bundle": "^4.4"
+        "php": "^7.1",
+        "contao/calendar-bundle": "^4.5",
+        "contao/comments-bundle": "^4.5",
+        "contao/faq-bundle": "^4.5",
+        "contao/listing-bundle": "^4.5",
+        "contao/manager-bundle": "4.5.*",
+        "contao/news-bundle": "^4.5",
+        "contao/newsletter-bundle": "^4.5"
     },
     "conflict": {
-        "contao/core-bundle": "<4.4.1"
+        "contao/core-bundle": "<4.4.1",
+        "swiftmailer/swiftmailer": "<5.4.5",
+        "symfony/swiftmailer-bundle": "2.6.* <2.6.2"
     },
     "config": {
         "component-dir": "assets"
@@ -32,5 +34,7 @@
         "post-update-cmd": [
             "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
         ]
-    }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
 }

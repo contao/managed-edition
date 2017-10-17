@@ -47,4 +47,4 @@ Visit the [support page][7] to learn about the available support options.
 [4]: https://docs.contao.org/books/extending-contao4/
 [5]: https://docs.contao.org/books/cookbook/
 [6]: https://docs.contao.org/books/api/
-[7]: https://contao.org/support.html
+[7]: https://contao.org/en/support.html
