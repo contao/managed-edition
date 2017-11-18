@@ -17,12 +17,8 @@
         "contao/listing-bundle": "^4.5",
         "contao/manager-bundle": "4.5.*",
         "contao/news-bundle": "^4.5",
-        "contao/newsletter-bundle": "^4.5"
-    },
-    "conflict": {
-        "contao/core-bundle": "<4.4.1",
-        "swiftmailer/swiftmailer": "<5.4.5",
-        "symfony/swiftmailer-bundle": "2.6.* <2.6.2"
+        "contao/newsletter-bundle": "^4.5",
+        "roave/security-advisories": "dev-master"
     },
     "config": {
         "component-dir": "assets"
