@@ -10,8 +10,9 @@ System requirements
 -------------------
 
  * Web server
- * PHP 5.6.0+ with GDlib, DOM, Phar and SOAP
- * MySQL 5.0.3+
+ * PHP 7.1.0+ with GDlib, DOM and Phar
+ * MySQL 5.3.3+
+ * InnoDB with `innodb_large_prefix` enabled
 
 
 Installation
