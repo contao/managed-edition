@@ -15,12 +15,10 @@
         "contao/calendar-bundle": "^4.4",
         "contao/comments-bundle": "^4.4",
         "contao/faq-bundle": "^4.4",
-        "contao/listing-bundle": "^4.4.8",
+        "contao/listing-bundle": "^4.4",
         "contao/news-bundle": "^4.4",
-        "contao/newsletter-bundle": "^4.4"
-    },
-    "conflict": {
-        "contao/core-bundle": "<4.4.8"
+        "contao/newsletter-bundle": "^4.4",
+        "roave/security-advisories": "dev-master"
     },
     "config": {
         "component-dir": "assets"
