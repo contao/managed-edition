@@ -15,6 +15,34 @@ System requirements
  * InnoDB with `innodb_large_prefix` enabled
 
 
+InnoDB large prefix
+-------------------
+
+MySQL versions prior to 5.7.7 do not have the `innodb_large_prefix` option
+enabled by default. To enable it in one of these versions, add the following
+to your `my.cnf` file:
+
+```
+innodb_large_prefix = 1
+innodb_file_format = Barracuda
+innodb_file_per_table = 1
+```
+
+If the option cannot be enabled on your server, please configure a different
+database engine and character set in your `app/config/config.yml` file:
+
+```yml
+doctrine:
+    dbal:
+        connections:
+            default:
+                default_table_options:
+                    charset: utf8
+                    collate: utf8_unicode_ci
+                    engine: MyISAM
+```
+
+
 Installation
 ------------
 
