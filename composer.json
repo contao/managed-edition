@@ -23,6 +23,11 @@
     "config": {
         "component-dir": "assets"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-4.5": "4.5.x-dev"
+        }
+    },
     "scripts": {
         "post-install-cmd": [
             "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
