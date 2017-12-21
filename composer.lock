@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "59185908ea3618f945749179808604e0",
+    "content-hash": "159b5e9f8c69b516eb6984b4f753c636",
     "packages": [
         {
             "name": "ausi/slug-generator",
@@ -317,16 +317,16 @@
         },
         {
             "name": "contao-components/contao",
-            "version": "7.1.3",
+            "version": "7.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao-components/contao.git",
-                "reference": "b45b1a8c47d60611d7d9682357534a84c5dd4951"
+                "reference": "2e118b69540a6bef03ef1069eee4309fc614431c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao-components/contao/zipball/b45b1a8c47d60611d7d9682357534a84c5dd4951",
-                "reference": "b45b1a8c47d60611d7d9682357534a84c5dd4951",
+                "url": "https://api.github.com/repos/contao-components/contao/zipball/2e118b69540a6bef03ef1069eee4309fc614431c",
+                "reference": "2e118b69540a6bef03ef1069eee4309fc614431c",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +344,7 @@
                 }
             ],
             "description": "Contao Open Source CMS components",
-            "time": "2017-11-14T20:02:34+00:00"
+            "time": "2017-12-14T10:35:32+00:00"
         },
         {
             "name": "contao-components/datepicker",
@@ -859,16 +859,16 @@
         },
         {
             "name": "contao/calendar-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/calendar-bundle.git",
-                "reference": "4ed595a20783bf523e59b46efec6def03528a82d"
+                "reference": "687094dab5d1eabc64aa31f4088ad1765f379232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/calendar-bundle/zipball/4ed595a20783bf523e59b46efec6def03528a82d",
-                "reference": "4ed595a20783bf523e59b46efec6def03528a82d",
+                "url": "https://api.github.com/repos/contao/calendar-bundle/zipball/687094dab5d1eabc64aa31f4088ad1765f379232",
+                "reference": "687094dab5d1eabc64aa31f4088ad1765f379232",
                 "shasum": ""
             },
             "require": {
@@ -894,7 +894,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\CalendarBundle\\ContaoManager\\Plugin"
             },
@@ -923,20 +923,20 @@
                 }
             ],
             "description": "Adds calendar functionality to Contao 4",
-            "time": "2017-12-12T20:18:33+00:00"
+            "time": "2017-12-21T09:31:41+00:00"
         },
         {
             "name": "contao/comments-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/comments-bundle.git",
-                "reference": "bc97c3aa4901faa1e855ead8603ea529b655a867"
+                "reference": "7746a96adb3290dac2243c72500bc3728afce252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/bc97c3aa4901faa1e855ead8603ea529b655a867",
-                "reference": "bc97c3aa4901faa1e855ead8603ea529b655a867",
+                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/7746a96adb3290dac2243c72500bc3728afce252",
+                "reference": "7746a96adb3290dac2243c72500bc3728afce252",
                 "shasum": ""
             },
             "require": {
@@ -955,7 +955,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\CommentsBundle\\ContaoManager\\Plugin"
             },
@@ -984,20 +984,20 @@
                 }
             ],
             "description": "Adds comments functionality to Contao 4",
-            "time": "2017-12-06T16:00:23+00:00"
+            "time": "2017-12-21T07:36:43+00:00"
         },
         {
             "name": "contao/core-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/core-bundle.git",
-                "reference": "a37d763add8f430971be7c439cbc5b1788f3274c"
+                "reference": "45ce17b46ca7eab20837c2933d49059668d0f62b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/core-bundle/zipball/a37d763add8f430971be7c439cbc5b1788f3274c",
-                "reference": "a37d763add8f430971be7c439cbc5b1788f3274c",
+                "url": "https://api.github.com/repos/contao/core-bundle/zipball/45ce17b46ca7eab20837c2933d49059668d0f62b",
+                "reference": "45ce17b46ca7eab20837c2933d49059668d0f62b",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +1007,7 @@
                 "contao-components/colorbox": "^1.6",
                 "contao-components/colorpicker": "^1.4.0.1",
                 "contao-components/compass": "^0.12",
-                "contao-components/contao": "^7.1",
+                "contao-components/contao": "^7.1.4",
                 "contao-components/datepicker": "^2.2.0.2",
                 "contao-components/dropzone": "^5.0.1",
                 "contao-components/highlight": "^9.0",
@@ -1093,7 +1093,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\CoreBundle\\ContaoManager\\Plugin"
             },
@@ -1127,20 +1127,20 @@
                 }
             ],
             "description": "Contao 4 core bundle",
-            "time": "2017-12-12T20:15:20+00:00"
+            "time": "2017-12-21T09:27:05+00:00"
         },
         {
             "name": "contao/faq-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/faq-bundle.git",
-                "reference": "6805ff622eccbccb72b04661bbc4e1156a32c5e8"
+                "reference": "f3496ddbce613a13e763ba65d7c870078fd94ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/faq-bundle/zipball/6805ff622eccbccb72b04661bbc4e1156a32c5e8",
-                "reference": "6805ff622eccbccb72b04661bbc4e1156a32c5e8",
+                "url": "https://api.github.com/repos/contao/faq-bundle/zipball/f3496ddbce613a13e763ba65d7c870078fd94ae6",
+                "reference": "f3496ddbce613a13e763ba65d7c870078fd94ae6",
                 "shasum": ""
             },
             "require": {
@@ -1166,7 +1166,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\FaqBundle\\ContaoManager\\Plugin"
             },
@@ -1195,7 +1195,7 @@
                 }
             ],
             "description": "Adds FAQ functionality to Contao 4",
-            "time": "2017-12-12T20:10:54+00:00"
+            "time": "2017-12-21T09:34:56+00:00"
         },
         {
             "name": "contao/image",
@@ -1298,16 +1298,16 @@
         },
         {
             "name": "contao/installation-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/installation-bundle.git",
-                "reference": "fd7729d3517331545f1315cb0f0856d173e56dd5"
+                "reference": "bfc5f5786b1b202a7396310649e397bd6231e9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/fd7729d3517331545f1315cb0f0856d173e56dd5",
-                "reference": "fd7729d3517331545f1315cb0f0856d173e56dd5",
+                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/bfc5f5786b1b202a7396310649e397bd6231e9a1",
+                "reference": "bfc5f5786b1b202a7396310649e397bd6231e9a1",
                 "shasum": ""
             },
             "require": {
@@ -1335,7 +1335,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\InstallationBundle\\ContaoManager\\Plugin"
             },
@@ -1355,20 +1355,20 @@
                 }
             ],
             "description": "Required to install and update Contao 4",
-            "time": "2017-12-12T20:20:41+00:00"
+            "time": "2017-12-21T09:35:42+00:00"
         },
         {
             "name": "contao/listing-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/listing-bundle.git",
-                "reference": "40138019d3ce304a85b9a8aaaa1335ef18e00c07"
+                "reference": "f50338a363478d054d1ee4bab286bb41eeebd85d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/40138019d3ce304a85b9a8aaaa1335ef18e00c07",
-                "reference": "40138019d3ce304a85b9a8aaaa1335ef18e00c07",
+                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/f50338a363478d054d1ee4bab286bb41eeebd85d",
+                "reference": "f50338a363478d054d1ee4bab286bb41eeebd85d",
                 "shasum": ""
             },
             "require": {
@@ -1387,7 +1387,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\ListingBundle\\ContaoManager\\Plugin"
             },
@@ -1416,20 +1416,20 @@
                 }
             ],
             "description": "Allows to list arbitrary data in the Contao 4 front end",
-            "time": "2017-12-06T11:25:30+00:00"
+            "time": "2017-12-14T20:18:51+00:00"
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
-                "reference": "35bf1efcee448eba9a0aab0b0d2ad76bdf62ce05"
+                "reference": "98444c9154293e55288071b0c83ed5219294599a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/35bf1efcee448eba9a0aab0b0d2ad76bdf62ce05",
-                "reference": "35bf1efcee448eba9a0aab0b0d2ad76bdf62ce05",
+                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/98444c9154293e55288071b0c83ed5219294599a",
+                "reference": "98444c9154293e55288071b0c83ed5219294599a",
                 "shasum": ""
             },
             "require": {
@@ -1459,7 +1459,6 @@
             "require-dev": {
                 "composer/composer": "^1.0",
                 "contao/test-case": "^1.1",
-                "egulias/email-validator": "^2.0",
                 "friendsofphp/php-cs-fixer": "^2.6",
                 "ocramius/proxy-manager": "^2.0",
                 "php-http/message-factory": "^1.0.2",
@@ -1475,7 +1474,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\ManagerBundle\\ContaoManager\\Plugin"
             },
@@ -1495,20 +1494,20 @@
                 }
             ],
             "description": "Contao 4 manager bundle",
-            "time": "2017-12-12T14:54:56+00:00"
+            "time": "2017-12-21T09:39:20+00:00"
         },
         {
             "name": "contao/manager-plugin",
-            "version": "2.2.0-beta2",
+            "version": "2.2.0-RC1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-plugin.git",
-                "reference": "eb4e36263a6aac9fd8751cd3db6ea54e8c78437c"
+                "reference": "1996215e4b8b895c75eca345124ae0cc16fae089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/manager-plugin/zipball/eb4e36263a6aac9fd8751cd3db6ea54e8c78437c",
-                "reference": "eb4e36263a6aac9fd8751cd3db6ea54e8c78437c",
+                "url": "https://api.github.com/repos/contao/manager-plugin/zipball/1996215e4b8b895c75eca345124ae0cc16fae089",
+                "reference": "1996215e4b8b895c75eca345124ae0cc16fae089",
                 "shasum": ""
             },
             "require": {
@@ -1528,7 +1527,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "2.2.x-dev"
+                    "dev-2.2": "2.2.x-dev"
                 }
             },
             "autoload": {
@@ -1547,20 +1546,20 @@
                 }
             ],
             "description": "Contao 4 manager plugin",
-            "time": "2017-11-23T10:41:52+00:00"
+            "time": "2017-12-19T19:49:20+00:00"
         },
         {
             "name": "contao/news-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/news-bundle.git",
-                "reference": "91f1579f80982b474269601ca8f24e6de3a3d569"
+                "reference": "7610c3d9b15de164df1ccf83ea3de3628243299b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/news-bundle/zipball/91f1579f80982b474269601ca8f24e6de3a3d569",
-                "reference": "91f1579f80982b474269601ca8f24e6de3a3d569",
+                "url": "https://api.github.com/repos/contao/news-bundle/zipball/7610c3d9b15de164df1ccf83ea3de3628243299b",
+                "reference": "7610c3d9b15de164df1ccf83ea3de3628243299b",
                 "shasum": ""
             },
             "require": {
@@ -1586,7 +1585,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\NewsBundle\\ContaoManager\\Plugin"
             },
@@ -1615,20 +1614,20 @@
                 }
             ],
             "description": "Adds news functionality to Contao 4",
-            "time": "2017-12-12T20:21:35+00:00"
+            "time": "2017-12-21T09:37:54+00:00"
         },
         {
             "name": "contao/newsletter-bundle",
-            "version": "4.5.0-RC1",
+            "version": "4.5.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/newsletter-bundle.git",
-                "reference": "af2c3878545baef1f32abbd785c985ea54bd77a0"
+                "reference": "8ad1ac5fb5de0943c61979cdef41e39dd69c9bae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/newsletter-bundle/zipball/af2c3878545baef1f32abbd785c985ea54bd77a0",
-                "reference": "af2c3878545baef1f32abbd785c985ea54bd77a0",
+                "url": "https://api.github.com/repos/contao/newsletter-bundle/zipball/8ad1ac5fb5de0943c61979cdef41e39dd69c9bae",
+                "reference": "8ad1ac5fb5de0943c61979cdef41e39dd69c9bae",
                 "shasum": ""
             },
             "require": {
@@ -1647,7 +1646,7 @@
             "type": "contao-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "4.5.x-dev"
+                    "dev-4.5": "4.5.x-dev"
                 },
                 "contao-manager-plugin": "Contao\\NewsletterBundle\\ContaoManager\\Plugin"
             },
@@ -1676,7 +1675,7 @@
                 }
             ],
             "description": "Adds newsletter functionality to Contao 4",
-            "time": "2017-12-06T15:58:45+00:00"
+            "time": "2017-12-21T09:38:35+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -2440,35 +2439,35 @@
         },
         {
             "name": "friendsofsymfony/http-cache",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "63837b29670094539fdda35cb887cbfc57798c6f"
+                "reference": "52b6b0919f21683ea8705305ed8aa1771585e7a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/63837b29670094539fdda35cb887cbfc57798c6f",
-                "reference": "63837b29670094539fdda35cb887cbfc57798c6f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/52b6b0919f21683ea8705305ed8aa1771585e7a7",
+                "reference": "52b6b0919f21683ea8705305ed8aa1771585e7a7",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6||^7.0.0",
+                "php": "^5.6 || ^7.0.0",
                 "php-http/client-common": "^1.1.0",
                 "php-http/client-implementation": "^1.0.0",
                 "php-http/discovery": "^1.0",
                 "php-http/message": "^1.0.0",
-                "symfony/event-dispatcher": "^2.3||^3.0",
-                "symfony/options-resolver": "^2.7||^3.0"
+                "symfony/event-dispatcher": "^2.3 || ^3.0 || ^4.0",
+                "symfony/options-resolver": "^2.7 || ^3.0 || ^4.0"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.5",
                 "monolog/monolog": "^1.0",
                 "php-http/guzzle6-adapter": "^1.0.0",
                 "php-http/mock-client": "^0.3.2",
-                "phpunit/phpunit": "^4.5.0 || ^5.0.0 <5.4",
-                "symfony/http-kernel": "^2.3||^3.0",
-                "symfony/process": "^2.3||^3.0"
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "symfony/http-kernel": "^2.3 || ^3.0 || ^4.0",
+                "symfony/process": "^2.3 || ^3.0 || ^4.0"
             },
             "suggest": {
                 "friendsofsymfony/http-cache-bundle": "For integration with the Symfony framework",
@@ -2477,7 +2476,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -2514,7 +2513,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2017-08-18T11:55:06+00:00"
+            "time": "2017-12-19T16:31:20+00:00"
         },
         {
             "name": "friendsofsymfony/http-cache-bundle",
@@ -3079,16 +3078,16 @@
         },
         {
             "name": "leafo/scssphp",
-            "version": "v0.7.1",
+            "version": "v0.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leafo/scssphp.git",
-                "reference": "9eaf3a6db4d88ce2c265a89e3fc495fbec9bf7a6"
+                "reference": "d7296256bd1bfacb8bd24e69030fd5e187181835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leafo/scssphp/zipball/9eaf3a6db4d88ce2c265a89e3fc495fbec9bf7a6",
-                "reference": "9eaf3a6db4d88ce2c265a89e3fc495fbec9bf7a6",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/d7296256bd1bfacb8bd24e69030fd5e187181835",
+                "reference": "d7296256bd1bfacb8bd24e69030fd5e187181835",
                 "shasum": ""
             },
             "require": {
@@ -3127,7 +3126,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2017-10-13T15:53:00+00:00"
+            "time": "2017-12-21T00:18:53+00:00"
         },
         {
             "name": "league/uri",
@@ -5953,16 +5952,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "46d4a9027c752ce425f67c94e89e3e3098f3a488"
+                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/46d4a9027c752ce425f67c94e89e3e3098f3a488",
-                "reference": "46d4a9027c752ce425f67c94e89e3e3098f3a488",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/29961b693fa2157a3f349d1a801f9f8742be4e03",
+                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03",
                 "shasum": ""
             },
             "require": {
@@ -6104,7 +6103,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-12-04T23:05:15+00:00"
+            "time": "2017-12-15T02:05:35+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
@@ -6327,24 +6326,24 @@
         },
         {
             "name": "ua-parser/uap-php",
-            "version": "v3.4.7",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ua-parser/uap-php.git",
-                "reference": "ea47d0b12517670270930938c063d899b420019b"
+                "reference": "c8b31e5b8215a0c6dab4dd304050526a1907b17c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/ea47d0b12517670270930938c063d899b420019b",
-                "reference": "ea47d0b12517670270930938c063d899b420019b",
+                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/c8b31e5b8215a0c6dab4dd304050526a1907b17c",
+                "reference": "c8b31e5b8215a0c6dab4dd304050526a1907b17c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/console": "^2.0 || ^3.0",
-                "symfony/filesystem": "^2.0 || ^3.0",
-                "symfony/finder": "^2.0 || ^3.0",
-                "symfony/yaml": "^2.0 || ^3.0"
+                "symfony/console": "^2.0 || ^3.0 || ^4.0",
+                "symfony/filesystem": "^2.0 || ^3.0 || ^4.0",
+                "symfony/finder": "^2.0 || ^3.0 || ^4.0",
+                "symfony/yaml": "^2.0 || ^3.0 || ^4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.0 || ^5.0"
@@ -6373,7 +6372,7 @@
                 }
             ],
             "description": "A multi-language port of Browserscope's user agent parser.",
-            "time": "2017-02-26T19:11:57+00:00"
+            "time": "2017-12-13T11:03:50+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6474,7 +6473,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "beta",
+    "minimum-stability": "RC",
     "stability-flags": {
         "roave/security-advisories": 20
     },
