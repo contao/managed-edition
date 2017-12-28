@@ -35,7 +35,5 @@
         "post-update-cmd": [
             "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
         ]
-    },
-    "minimum-stability": "RC",
-    "prefer-stable": true
+    }
 }
