@@ -810,7 +810,7 @@
         },
         {
             "name": "contao/calendar-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/calendar-bundle.git",
@@ -877,7 +877,7 @@
         },
         {
             "name": "contao/comments-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/comments-bundle.git",
@@ -938,16 +938,16 @@
         },
         {
             "name": "contao/core-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/core-bundle.git",
-                "reference": "541a8ca5a673bd561c49f5472f99287d34751438"
+                "reference": "6e5f7c211791d8a8be66fe75fc3e4f2c9e0de582"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/core-bundle/zipball/541a8ca5a673bd561c49f5472f99287d34751438",
-                "reference": "541a8ca5a673bd561c49f5472f99287d34751438",
+                "url": "https://api.github.com/repos/contao/core-bundle/zipball/6e5f7c211791d8a8be66fe75fc3e4f2c9e0de582",
+                "reference": "6e5f7c211791d8a8be66fe75fc3e4f2c9e0de582",
                 "shasum": ""
             },
             "require": {
@@ -1073,11 +1073,11 @@
                 }
             ],
             "description": "Contao 4 core bundle",
-            "time": "2017-12-27T15:33:50+00:00"
+            "time": "2017-12-28T09:17:15+00:00"
         },
         {
             "name": "contao/faq-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/faq-bundle.git",
@@ -1243,7 +1243,7 @@
         },
         {
             "name": "contao/installation-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/installation-bundle.git",
@@ -1303,16 +1303,16 @@
         },
         {
             "name": "contao/listing-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/listing-bundle.git",
-                "reference": "9f5297b5ca9c5ef7b70f6345a7170deaaf8c5280"
+                "reference": "65188ae849e89d4b9baf9eb56737fd5227ba737f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/9f5297b5ca9c5ef7b70f6345a7170deaaf8c5280",
-                "reference": "9f5297b5ca9c5ef7b70f6345a7170deaaf8c5280",
+                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/65188ae849e89d4b9baf9eb56737fd5227ba737f",
+                "reference": "65188ae849e89d4b9baf9eb56737fd5227ba737f",
                 "shasum": ""
             },
             "require": {
@@ -1360,20 +1360,20 @@
                 }
             ],
             "description": "Allows to list arbitrary data in the Contao 4 front end",
-            "time": "2017-12-27T10:47:54+00:00"
+            "time": "2017-12-28T08:50:29+00:00"
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
-                "reference": "0dc6cbb518b71e1072d82a7b4521f9482cfd2c25"
+                "reference": "f49eb95040ca29769175517aa7c40e2072365825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/0dc6cbb518b71e1072d82a7b4521f9482cfd2c25",
-                "reference": "0dc6cbb518b71e1072d82a7b4521f9482cfd2c25",
+                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/f49eb95040ca29769175517aa7c40e2072365825",
+                "reference": "f49eb95040ca29769175517aa7c40e2072365825",
                 "shasum": ""
             },
             "require": {
@@ -1435,7 +1435,7 @@
                 }
             ],
             "description": "Contao 4 manager bundle",
-            "time": "2017-12-27T13:15:24+00:00"
+            "time": "2017-12-28T08:59:34+00:00"
         },
         {
             "name": "contao/manager-plugin",
@@ -1491,7 +1491,7 @@
         },
         {
             "name": "contao/news-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/news-bundle.git",
@@ -1558,7 +1558,7 @@
         },
         {
             "name": "contao/newsletter-bundle",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/newsletter-bundle.git",
