@@ -859,7 +859,7 @@
         },
         {
             "name": "contao/calendar-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/calendar-bundle.git",
@@ -926,22 +926,22 @@
         },
         {
             "name": "contao/comments-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/comments-bundle.git",
-                "reference": "4e224bc44a6d51f6ef27103e17d155eae2ab0972"
+                "reference": "85b225b32ebdc2c2c3e1b328eb40d386e60b66a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/4e224bc44a6d51f6ef27103e17d155eae2ab0972",
-                "reference": "4e224bc44a6d51f6ef27103e17d155eae2ab0972",
+                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/85b225b32ebdc2c2c3e1b328eb40d386e60b66a5",
+                "reference": "85b225b32ebdc2c2c3e1b328eb40d386e60b66a5",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "^4.5",
                 "php": "^7.1",
-                "symfony/framework-bundle": "^3.3"
+                "symfony/framework-bundle": "^3.4"
             },
             "conflict": {
                 "contao/core": "*",
@@ -983,20 +983,20 @@
                 }
             ],
             "description": "Adds comments functionality to Contao 4",
-            "time": "2017-12-28T16:00:43+00:00"
+            "time": "2018-01-02T16:05:03+00:00"
         },
         {
             "name": "contao/core-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/core-bundle.git",
-                "reference": "e1e91ef63525d6c1efdb38150ebcd66f57fbaf08"
+                "reference": "bc76cafe772a7fc8a2ab9ee0376fc7bacb8e0fa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/core-bundle/zipball/e1e91ef63525d6c1efdb38150ebcd66f57fbaf08",
-                "reference": "e1e91ef63525d6c1efdb38150ebcd66f57fbaf08",
+                "url": "https://api.github.com/repos/contao/core-bundle/zipball/bc76cafe772a7fc8a2ab9ee0376fc7bacb8e0fa7",
+                "reference": "bc76cafe772a7fc8a2ab9ee0376fc7bacb8e0fa7",
                 "shasum": ""
             },
             "require": {
@@ -1126,11 +1126,11 @@
                 }
             ],
             "description": "Contao 4 core bundle",
-            "time": "2017-12-28T15:59:44+00:00"
+            "time": "2018-01-04T08:14:16+00:00"
         },
         {
             "name": "contao/faq-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/faq-bundle.git",
@@ -1296,16 +1296,16 @@
         },
         {
             "name": "contao/installation-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/installation-bundle.git",
-                "reference": "b8da513811d2c30a01e236edf98992abeac95ae6"
+                "reference": "f8e1dd68c2b6b0196615907a882e7b1dcbfc5136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/b8da513811d2c30a01e236edf98992abeac95ae6",
-                "reference": "b8da513811d2c30a01e236edf98992abeac95ae6",
+                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/f8e1dd68c2b6b0196615907a882e7b1dcbfc5136",
+                "reference": "f8e1dd68c2b6b0196615907a882e7b1dcbfc5136",
                 "shasum": ""
             },
             "require": {
@@ -1352,26 +1352,26 @@
                 }
             ],
             "description": "Required to install and update Contao 4",
-            "time": "2017-12-28T11:11:16+00:00"
+            "time": "2018-01-04T08:15:57+00:00"
         },
         {
             "name": "contao/listing-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/listing-bundle.git",
-                "reference": "9e331b7df088cab52e9519fb23d847ed519a3af4"
+                "reference": "a0b217bb2366e17d5bdceff3cd829ddcb2978c6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/9e331b7df088cab52e9519fb23d847ed519a3af4",
-                "reference": "9e331b7df088cab52e9519fb23d847ed519a3af4",
+                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/a0b217bb2366e17d5bdceff3cd829ddcb2978c6b",
+                "reference": "a0b217bb2366e17d5bdceff3cd829ddcb2978c6b",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "^4.5",
                 "php": "^7.1",
-                "symfony/framework-bundle": "^3.3"
+                "symfony/framework-bundle": "^3.4"
             },
             "conflict": {
                 "contao/core": "*",
@@ -1413,20 +1413,20 @@
                 }
             ],
             "description": "Allows to list arbitrary data in the Contao 4 front end",
-            "time": "2017-12-28T13:40:56+00:00"
+            "time": "2018-01-02T16:05:23+00:00"
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
-                "reference": "b0d8379bead89a7e167c13c5ccf949b428b4b722"
+                "reference": "9391ea0a87ad27247c713612304b25d82bee6d5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/b0d8379bead89a7e167c13c5ccf949b428b4b722",
-                "reference": "b0d8379bead89a7e167c13c5ccf949b428b4b722",
+                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/9391ea0a87ad27247c713612304b25d82bee6d5d",
+                "reference": "9391ea0a87ad27247c713612304b25d82bee6d5d",
                 "shasum": ""
             },
             "require": {
@@ -1491,7 +1491,7 @@
                 }
             ],
             "description": "Contao 4 manager bundle",
-            "time": "2017-12-28T13:42:01+00:00"
+            "time": "2018-01-02T17:03:02+00:00"
         },
         {
             "name": "contao/manager-plugin",
@@ -5017,12 +5017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0703d860f83775029738dc4a519301e8e3d81853"
+                "reference": "21b3900483e9bc1536a298bc3eb3d647ab56d8a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0703d860f83775029738dc4a519301e8e3d81853",
-                "reference": "0703d860f83775029738dc4a519301e8e3d81853",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/21b3900483e9bc1536a298bc3eb3d647ab56d8a1",
+                "reference": "21b3900483e9bc1536a298bc3eb3d647ab56d8a1",
                 "shasum": ""
             },
             "conflict": {
@@ -5073,7 +5073,7 @@
                 "oro/platform": ">=1.7,<1.7.4",
                 "phpmailer/phpmailer": ">=5,<5.2.24",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
-                "phpxmlrpc/extras": "<6.0.1",
+                "phpxmlrpc/extras": "<0.6.1",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "shopware/shopware": "<5.2.25",
@@ -5105,7 +5105,7 @@
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "twig/twig": "<1.20",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.22|>=8,<8.7.5",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
@@ -5154,7 +5154,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-12-24T19:52:27+00:00"
+            "time": "2018-01-03T11:17:07+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
