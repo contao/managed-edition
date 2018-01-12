@@ -9,11 +9,22 @@ for more information.
 System requirements
 -------------------
 
- * Web server
- * PHP 7.1.0+ with GDlib, DOM and Phar
- * MySQL 5.5.7+
- * InnoDB with `innodb_large_prefix` enabled
+Contao requires:
 
+* A webserver with rewrite support (such as Apache with mod_rewrite or nginx)
+* PHP Version 7.1.0 (or greater)
+  * with the following extensions:
+    * gd
+    * dom
+    * intl
+    * mbstring (optional, better performance if native)
+  * make sure the following functions are available:
+    * proc_open
+    * proc_close
+* Database
+  * MySQL 5.5.7 (or greater)
+    * InnoDB with innodb_large_prefix enabled
+  * MariaDB (or greater)
 
 InnoDB large prefix
 -------------------
