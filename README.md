@@ -16,6 +16,7 @@ Contao requires:
   * with the following extensions:
     * gd
     * dom
+    * Phar
     * intl
     * mbstring (optional, better performance if native)
   * make sure the following functions are available:
