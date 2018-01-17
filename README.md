@@ -9,9 +9,22 @@ for more information.
 System requirements
 -------------------
 
- * Web server
- * PHP 5.6.0+ with GDlib, DOM, Phar and SOAP
- * MySQL 5.0.3+
+Contao requires:
+
+* A webserver with rewrite support (such as Apache with mod_rewrite or nginx)
+* PHP Version 5.6.0 (or greater)
+  * with the following extensions:
+    * gd
+    * dom
+    * Phar
+    * soap
+    * mbstring (optional, better performance if native)
+  * make sure the following functions are available:
+    * proc_open
+    * proc_close
+* Database
+  * MySQL 5.0.3 (or greater)
+  * MariaDB (or greater)
 
 
 Installation
