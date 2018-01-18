@@ -1,0 +1,32 @@
+language: php
+
+git:
+  depth: 1
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+sudo: false
+
+env:
+  global:
+    - COMPOSER_ALLOW_XDEBUG=0
+  matrix:
+    - COMPOSER_COMMAND=install
+    - COMPOSER_COMMAND=update
+
+php:
+  - 5.6
+  - 7.0
+  - 7.1
+  - 7.2
+
+matrix:
+  fast_finish: true
+
+install:
+  - composer $COMPOSER_COMMAND --no-interaction
+
+script:
+  - php vendor/bin/security-checker security:check
