@@ -2,7 +2,7 @@
     "name": "contao/managed-edition",
     "type": "project",
     "description": "Contao Open Source CMS",
-    "license": "LGPL-3.0+",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Leo Feyer",
@@ -17,8 +17,7 @@
         "contao/listing-bundle": "^4.5",
         "contao/manager-bundle": "4.5.*",
         "contao/news-bundle": "^4.5",
-        "contao/newsletter-bundle": "^4.5",
-        "roave/security-advisories": "dev-master"
+        "contao/newsletter-bundle": "^4.5"
     },
     "config": {
         "component-dir": "assets"
