@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3009da231550918dcd81e1f93073134d",
+    "content-hash": "c9d7393a300bff2b87665eb50330e9f9",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -810,20 +810,20 @@
         },
         {
             "name": "contao/calendar-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/calendar-bundle.git",
-                "reference": "4fa939cf630bcbb81b94c3e304279122530611f6"
+                "reference": "3cc18d89931644e0eed412f64c9d35d279bc5fad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/calendar-bundle/zipball/4fa939cf630bcbb81b94c3e304279122530611f6",
-                "reference": "4fa939cf630bcbb81b94c3e304279122530611f6",
+                "url": "https://api.github.com/repos/contao/calendar-bundle/zipball/3cc18d89931644e0eed412f64c9d35d279bc5fad",
+                "reference": "3cc18d89931644e0eed412f64c9d35d279bc5fad",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4.2",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -834,10 +834,10 @@
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
                 "doctrine/doctrine-cache-bundle": "^1.3",
-                "friendsofphp/php-cs-fixer": "^2.0",
+                "friendsofphp/php-cs-fixer": "^2.6",
                 "php-http/guzzle6-adapter": "^1.1",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "^3.2"
             },
@@ -864,7 +864,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -873,24 +873,24 @@
                 }
             ],
             "description": "Adds calendar functionality to Contao 4",
-            "time": "2017-12-26T11:57:26+00:00"
+            "time": "2018-01-23T07:58:04+00:00"
         },
         {
             "name": "contao/comments-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/comments-bundle.git",
-                "reference": "3de3abd7c56f324adde2d304cfe598ff5ec92863"
+                "reference": "0f71a24d9cb0fe1a073af6cbead1c69470c29f93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/3de3abd7c56f324adde2d304cfe598ff5ec92863",
-                "reference": "3de3abd7c56f324adde2d304cfe598ff5ec92863",
+                "url": "https://api.github.com/repos/contao/comments-bundle/zipball/0f71a24d9cb0fe1a073af6cbead1c69470c29f93",
+                "reference": "0f71a24d9cb0fe1a073af6cbead1c69470c29f93",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -900,7 +900,7 @@
             },
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
-                "friendsofphp/php-cs-fixer": "^2.0"
+                "friendsofphp/php-cs-fixer": "^2.6"
             },
             "type": "contao-bundle",
             "extra": {
@@ -925,7 +925,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -934,20 +934,20 @@
                 }
             ],
             "description": "Adds comments functionality to Contao 4",
-            "time": "2017-12-27T14:49:51+00:00"
+            "time": "2018-01-22T20:36:00+00:00"
         },
         {
             "name": "contao/core-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/core-bundle.git",
-                "reference": "cfd58addda6cbf61c9616f2a0709e92181dddbe8"
+                "reference": "0aaa68ba5c933fbaad58ed743d68c584b486d248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/core-bundle/zipball/cfd58addda6cbf61c9616f2a0709e92181dddbe8",
-                "reference": "cfd58addda6cbf61c9616f2a0709e92181dddbe8",
+                "url": "https://api.github.com/repos/contao/core-bundle/zipball/0aaa68ba5c933fbaad58ed743d68c584b486d248",
+                "reference": "0aaa68ba5c933fbaad58ed743d68c584b486d248",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
                 "symfony/swiftmailer-bundle": "^2.3",
                 "symfony/yaml": "^3.3",
                 "tecnickcom/tcpdf": "^6.0",
-                "terminal42/header-replay-bundle": "^1.2",
+                "terminal42/header-replay-bundle": "1.3.*",
                 "true/punycode": "^2.1",
                 "twig/twig": "^1.26",
                 "webmozart/path-util": "^2.0"
@@ -1015,7 +1015,6 @@
                 "contao/manager-plugin": "<2.0 || >=3.0",
                 "doctrine/doctrine-migrations-bundle": "<1.1",
                 "doctrine/orm": "<2.4",
-                "swiftmailer/swiftmailer": "<5.4.5",
                 "symfony/swiftmailer-bundle": "2.6.* <2.6.2"
             },
             "require-dev": {
@@ -1025,11 +1024,11 @@
                 "doctrine/orm": "^2.5",
                 "ext-fileinfo": "*",
                 "friendsofphp/php-cs-fixer": "^2.0",
-                "lexik/maintenance-bundle": "^2.0",
+                "lexik/maintenance-bundle": "^2.1.3",
                 "monolog/monolog": "^1.22",
                 "php-http/guzzle6-adapter": "^1.1",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "^3.3.11"
             },
@@ -1050,6 +1049,9 @@
                 "classmap": [
                     "src/Resources/contao/"
                 ],
+                "files": [
+                    "src/Resources/functions/utf8_bootup.php"
+                ],
                 "exclude-from-classmap": [
                     "src/Resources/contao/config/",
                     "src/Resources/contao/dca/",
@@ -1057,14 +1059,11 @@
                     "src/Resources/contao/languages/",
                     "src/Resources/contao/templates/",
                     "src/Resources/contao/themes/"
-                ],
-                "files": [
-                    "src/Resources/functions/utf8_bootup.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1073,24 +1072,24 @@
                 }
             ],
             "description": "Contao 4 core bundle",
-            "time": "2018-01-03T08:12:13+00:00"
+            "time": "2018-01-23T07:57:24+00:00"
         },
         {
             "name": "contao/faq-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/faq-bundle.git",
-                "reference": "eac7986a4ccc7ef87a78a88ec75334c09ce5b751"
+                "reference": "f7e95a172d0dce354c56bf4b8b22b7e46168df0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/faq-bundle/zipball/eac7986a4ccc7ef87a78a88ec75334c09ce5b751",
-                "reference": "eac7986a4ccc7ef87a78a88ec75334c09ce5b751",
+                "url": "https://api.github.com/repos/contao/faq-bundle/zipball/f7e95a172d0dce354c56bf4b8b22b7e46168df0a",
+                "reference": "f7e95a172d0dce354c56bf4b8b22b7e46168df0a",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4.2",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -1101,10 +1100,10 @@
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
                 "doctrine/doctrine-cache-bundle": "^1.3",
-                "friendsofphp/php-cs-fixer": "^2.0",
+                "friendsofphp/php-cs-fixer": "^2.6",
                 "php-http/guzzle6-adapter": "^1.1",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "^3.2"
             },
@@ -1131,7 +1130,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1140,7 +1139,7 @@
                 }
             ],
             "description": "Adds FAQ functionality to Contao 4",
-            "time": "2017-12-27T13:34:38+00:00"
+            "time": "2018-01-23T07:58:52+00:00"
         },
         {
             "name": "contao/image",
@@ -1243,20 +1242,20 @@
         },
         {
             "name": "contao/installation-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/installation-bundle.git",
-                "reference": "9826ea92694d65e29fa2fb9eb540f9d4565fa54a"
+                "reference": "a48a3cb19e11dbcc370d11ac2e53bb271153d87f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/9826ea92694d65e29fa2fb9eb540f9d4565fa54a",
-                "reference": "9826ea92694d65e29fa2fb9eb540f9d4565fa54a",
+                "url": "https://api.github.com/repos/contao/installation-bundle/zipball/a48a3cb19e11dbcc370d11ac2e53bb271153d87f",
+                "reference": "a48a3cb19e11dbcc370d11ac2e53bb271153d87f",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "sensio/distribution-bundle": "^5.0",
                 "sensiolabs/ansi-to-html": "^1.1",
@@ -1270,9 +1269,10 @@
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
                 "doctrine/doctrine-cache-bundle": "^1.3",
-                "friendsofphp/php-cs-fixer": "^2.0",
+                "friendsofphp/php-cs-fixer": "^2.6",
+                "php-http/guzzle6-adapter": "^1.1",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "^2.8|^3.0"
             },
@@ -1290,7 +1290,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1299,24 +1299,24 @@
                 }
             ],
             "description": "Required to install and update Contao 4",
-            "time": "2018-01-03T08:13:47+00:00"
+            "time": "2018-01-23T07:59:04+00:00"
         },
         {
             "name": "contao/listing-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/listing-bundle.git",
-                "reference": "65188ae849e89d4b9baf9eb56737fd5227ba737f"
+                "reference": "b671edfc5e1b673f267216e3a17cf51b725e3ce0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/65188ae849e89d4b9baf9eb56737fd5227ba737f",
-                "reference": "65188ae849e89d4b9baf9eb56737fd5227ba737f",
+                "url": "https://api.github.com/repos/contao/listing-bundle/zipball/b671edfc5e1b673f267216e3a17cf51b725e3ce0",
+                "reference": "b671edfc5e1b673f267216e3a17cf51b725e3ce0",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -1326,7 +1326,7 @@
             },
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
-                "friendsofphp/php-cs-fixer": "^2.0"
+                "friendsofphp/php-cs-fixer": "^2.6"
             },
             "type": "contao-bundle",
             "extra": {
@@ -1351,7 +1351,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1360,20 +1360,20 @@
                 }
             ],
             "description": "Allows to list arbitrary data in the Contao 4 front end",
-            "time": "2017-12-28T08:50:29+00:00"
+            "time": "2018-01-22T20:19:01+00:00"
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
-                "reference": "f49eb95040ca29769175517aa7c40e2072365825"
+                "reference": "201ea88d88435328f9a685efb10b6b05b0e6c62c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/f49eb95040ca29769175517aa7c40e2072365825",
-                "reference": "f49eb95040ca29769175517aa7c40e2072365825",
+                "url": "https://api.github.com/repos/contao/manager-bundle/zipball/201ea88d88435328f9a685efb10b6b05b0e6c62c",
+                "reference": "201ea88d88435328f9a685efb10b6b05b0e6c62c",
                 "shasum": ""
             },
             "require": {
@@ -1382,7 +1382,7 @@
                 "contao/manager-plugin": "^2.1",
                 "doctrine/doctrine-bundle": "^1.6",
                 "friendsofsymfony/http-cache": "^2.0",
-                "lexik/maintenance-bundle": "^2.0",
+                "lexik/maintenance-bundle": "^2.1.3",
                 "nelmio/security-bundle": "^2.2",
                 "php": "^5.6|^7.0",
                 "php-http/guzzle6-adapter": "^1.1",
@@ -1392,19 +1392,11 @@
                 "symfony/symfony": "^3.3",
                 "terminal42/header-replay-bundle": "^1.0"
             },
-            "conflict": {
-                "contao/calendar-bundle": "<4.3.4",
-                "contao/comments-bundle": "<4.3.4",
-                "contao/faq-bundle": "<4.3.4",
-                "contao/listing-bundle": "<4.3.4",
-                "contao/news-bundle": "<4.3.4",
-                "contao/newsletter-bundle": "<4.3.4"
-            },
             "require-dev": {
                 "composer/composer": "^1.0",
-                "friendsofphp/php-cs-fixer": "^2.0",
+                "friendsofphp/php-cs-fixer": "^2.6",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/console": "^3.3.7",
                 "symfony/phpunit-bridge": "^3.2"
@@ -1426,7 +1418,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1435,7 +1427,7 @@
                 }
             ],
             "description": "Contao 4 manager bundle",
-            "time": "2017-12-28T08:59:34+00:00"
+            "time": "2018-01-22T20:32:34+00:00"
         },
         {
             "name": "contao/manager-plugin",
@@ -1491,20 +1483,20 @@
         },
         {
             "name": "contao/news-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/news-bundle.git",
-                "reference": "1033ee44cb79e409fb22b786971e3264b6898684"
+                "reference": "8cf8d52a31e85748838eb8f6a7848e0f56580720"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/news-bundle/zipball/1033ee44cb79e409fb22b786971e3264b6898684",
-                "reference": "1033ee44cb79e409fb22b786971e3264b6898684",
+                "url": "https://api.github.com/repos/contao/news-bundle/zipball/8cf8d52a31e85748838eb8f6a7848e0f56580720",
+                "reference": "8cf8d52a31e85748838eb8f6a7848e0f56580720",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4.2",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -1518,7 +1510,7 @@
                 "friendsofphp/php-cs-fixer": "^2.0",
                 "php-http/guzzle6-adapter": "^1.1",
                 "php-http/message-factory": "^1.0.2",
-                "phpunit/phpunit": "^5.7.11",
+                "phpunit/phpunit": "^5.7.26",
                 "satooshi/php-coveralls": "^1.0",
                 "symfony/phpunit-bridge": "^3.2"
             },
@@ -1545,7 +1537,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1554,24 +1546,24 @@
                 }
             ],
             "description": "Adds news functionality to Contao 4",
-            "time": "2017-12-26T12:01:37+00:00"
+            "time": "2018-01-22T20:35:38+00:00"
         },
         {
             "name": "contao/newsletter-bundle",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/newsletter-bundle.git",
-                "reference": "e2d9e6b4477751b7e1bbca4eb5a10c5f9111f352"
+                "reference": "6f3c788729f5799fd7e219ace59bb7f4172f1aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/newsletter-bundle/zipball/e2d9e6b4477751b7e1bbca4eb5a10c5f9111f352",
-                "reference": "e2d9e6b4477751b7e1bbca4eb5a10c5f9111f352",
+                "url": "https://api.github.com/repos/contao/newsletter-bundle/zipball/6f3c788729f5799fd7e219ace59bb7f4172f1aa7",
+                "reference": "6f3c788729f5799fd7e219ace59bb7f4172f1aa7",
                 "shasum": ""
             },
             "require": {
-                "contao/core-bundle": "^4.4",
+                "contao/core-bundle": "self.version",
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^3.3"
             },
@@ -1581,7 +1573,7 @@
             },
             "require-dev": {
                 "contao/manager-plugin": "^2.0",
-                "friendsofphp/php-cs-fixer": "^2.0"
+                "friendsofphp/php-cs-fixer": "^2.6"
             },
             "type": "contao-bundle",
             "extra": {
@@ -1606,7 +1598,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0+"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -1615,7 +1607,7 @@
                 }
             ],
             "description": "Adds newsletter functionality to Contao 4",
-            "time": "2017-12-26T12:02:26+00:00"
+            "time": "2018-01-23T08:00:07+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -2394,16 +2386,16 @@
         },
         {
             "name": "friendsofsymfony/http-cache-bundle",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCacheBundle.git",
-                "reference": "ee5c2139cb0974dda5062f6a49bf9cc882257c49"
+                "reference": "cbf34498261c47621a6e9f64a072b1fad7a3ca7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCacheBundle/zipball/ee5c2139cb0974dda5062f6a49bf9cc882257c49",
-                "reference": "ee5c2139cb0974dda5062f6a49bf9cc882257c49",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCacheBundle/zipball/cbf34498261c47621a6e9f64a072b1fad7a3ca7a",
+                "reference": "cbf34498261c47621a6e9f64a072b1fad7a3ca7a",
                 "shasum": ""
             },
             "require": {
@@ -2474,7 +2466,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2017-07-17T11:57:57+00:00"
+            "time": "2018-01-12T16:58:05+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3138,16 +3130,16 @@
         },
         {
             "name": "lexik/maintenance-bundle",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lexik/LexikMaintenanceBundle.git",
-                "reference": "4b8a990b2d9f97f3ee5c7948432ac1bd7193109b"
+                "reference": "d89f7851682608f0baa22ca557e66d93f19f8232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lexik/LexikMaintenanceBundle/zipball/4b8a990b2d9f97f3ee5c7948432ac1bd7193109b",
-                "reference": "4b8a990b2d9f97f3ee5c7948432ac1bd7193109b",
+                "url": "https://api.github.com/repos/lexik/LexikMaintenanceBundle/zipball/d89f7851682608f0baa22ca557e66d93f19f8232",
+                "reference": "d89f7851682608f0baa22ca557e66d93f19f8232",
                 "shasum": ""
             },
             "require": {
@@ -3156,7 +3148,7 @@
                 "symfony/translation": "~2.7|~3.0|^4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8|~5.0",
+                "phpunit/phpunit": "~4.8|~5.7.11",
                 "symfony/phpunit-bridge": "~2.7|~3.0|^4.0"
             },
             "type": "symfony-bundle",
@@ -3195,20 +3187,20 @@
                 "bundle",
                 "maintenance"
             ],
-            "time": "2017-11-24T09:07:26+00:00"
+            "time": "2018-01-05T08:36:19+00:00"
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.57",
+            "version": "1.3.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "7559ac0806f39f89f949c917e6612dda8154488b"
+                "reference": "aee56fe6c706662c5991bb1f88cabe19430c60fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/7559ac0806f39f89f949c917e6612dda8154488b",
-                "reference": "7559ac0806f39f89f949c917e6612dda8154488b",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/aee56fe6c706662c5991bb1f88cabe19430c60fe",
+                "reference": "aee56fe6c706662c5991bb1f88cabe19430c60fe",
                 "shasum": ""
             },
             "require": {
@@ -3255,7 +3247,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2017-12-06T12:46:42+00:00"
+            "time": "2018-01-08T10:01:42+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -3308,30 +3300,25 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220"
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/1f51cc520948f66cd2af8cbc45a5ee175e774220",
-                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/01ab082b355bf188d907b9929cd99b2923053495",
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-lib": "1.4.x-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Michelf": ""
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3355,7 +3342,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2016-10-29T18:58:20+00:00"
+            "time": "2018-01-15T00:49:33+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4511,151 +4498,6 @@
             "time": "2017-01-02T13:31:39+00:00"
         },
         {
-            "name": "roave/security-advisories",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0703d860f83775029738dc4a519301e8e3d81853"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0703d860f83775029738dc4a519301e8e3d81853",
-                "reference": "0703d860f83775029738dc4a519301e8e3d81853",
-                "shasum": ""
-            },
-            "conflict": {
-                "adodb/adodb-php": "<5.20.6",
-                "amphp/artax": "<1.0.6|>=2,<2.0.6",
-                "aws/aws-sdk-php": ">=3,<3.2.1",
-                "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
-                "cakephp/cakephp": ">=1.3,<1.3.18|>=2,<2.4.99|>=2.5,<2.5.99|>=2.6,<2.6.12|>=2.7,<2.7.6|>=3,<3.0.15|>=3.1,<3.1.4",
-                "cart2quote/module-quotation": ">=4.1.6,<=4.4.5|>=5,<5.4.4",
-                "cartalyst/sentry": "<=2.1.6",
-                "codeigniter/framework": "<=3.0.6",
-                "composer/composer": "<=1.0.0-alpha11",
-                "contao-components/mediaelement": ">=2.14.2,<2.21.1",
-                "contao/core": ">=2,<3.5.31",
-                "contao/core-bundle": ">=4,<4.4.8",
-                "contao/listing-bundle": ">=4,<4.4.8",
-                "doctrine/annotations": ">=1,<1.2.7",
-                "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
-                "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
-                "doctrine/dbal": ">=2,<2.0.8|>=2.1,<2.1.2",
-                "doctrine/doctrine-bundle": "<1.5.2",
-                "doctrine/doctrine-module": "<=0.7.1",
-                "doctrine/mongodb-odm": ">=1,<1.0.2",
-                "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
-                "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
-                "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=8,<8.3.7",
-                "drupal/drupal": ">=8,<8.3.7",
-                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.2|>=5.4,<5.4.10.1|>=2017.8,<2017.8.1.1",
-                "firebase/php-jwt": "<2",
-                "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
-                "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
-                "gree/jose": "<=2.2",
-                "gregwar/rst": "<1.0.3",
-                "guzzlehttp/guzzle": ">=6,<6.2.1|>=4.0.0-rc2,<4.2.4|>=5,<5.3.1",
-                "illuminate/auth": ">=4,<4.0.99|>=4.1,<4.1.26",
-                "illuminate/database": ">=4,<4.0.99|>=4.1,<4.1.29",
-                "joomla/session": "<1.3.1",
-                "laravel/framework": ">=4,<4.0.99|>=4.1,<4.1.29",
-                "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
-                "magento/magento1ce": ">=1.5.0.1,<1.9.3.2",
-                "magento/magento1ee": ">=1.9,<1.14.3.2",
-                "magento/magento2ce": ">=2,<2.2",
-                "monolog/monolog": ">=1.8,<1.12",
-                "namshi/jose": "<2.2",
-                "onelogin/php-saml": "<2.10.4",
-                "oro/crm": ">=1.7,<1.7.4",
-                "oro/platform": ">=1.7,<1.7.4",
-                "phpmailer/phpmailer": ">=5,<5.2.24",
-                "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
-                "phpxmlrpc/extras": "<6.0.1",
-                "pusher/pusher-php-server": "<2.2.1",
-                "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
-                "shopware/shopware": "<5.2.25",
-                "silverstripe/cms": ">=3,<=3.0.11|>=3.1,<3.1.11",
-                "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
-                "silverstripe/framework": ">=3,<3.3",
-                "silverstripe/userforms": "<3",
-                "simplesamlphp/saml2": "<1.8.1|>=1.9,<1.9.1|>=1.10,<1.10.3|>=2,<2.3.3",
-                "simplesamlphp/simplesamlphp": "<1.14.16",
-                "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
-                "socalnick/scn-social-auth": "<1.15.2",
-                "squizlabs/php_codesniffer": ">=1,<2.8.1",
-                "swiftmailer/swiftmailer": ">=4,<5.4.5",
-                "symfony/dependency-injection": ">=2,<2.0.17",
-                "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
-                "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2",
-                "symfony/http-foundation": ">=2,<2.3.27|>=2.4,<2.5.11|>=2.6,<2.6.6",
-                "symfony/http-kernel": ">=2,<2.3.29|>=2.4,<2.5.12|>=2.6,<2.6.8",
-                "symfony/intl": ">=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
-                "symfony/routing": ">=2,<2.0.19",
-                "symfony/security": ">=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9|>=2.3,<2.3.37|>=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5",
-                "symfony/security-core": ">=2.4,<2.6.13|>=2.7,<2.7.9|>=2.7.30,<2.7.32|>=2.8,<2.8.6|>=2.8.23,<2.8.25|>=3,<3.0.6|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5",
-                "symfony/security-csrf": ">=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
-                "symfony/security-http": ">=2.3,<2.3.41|>=2.4,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
-                "symfony/serializer": ">=2,<2.0.11",
-                "symfony/symfony": ">=2,<2.3.41|>=2.4,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
-                "symfony/translation": ">=2,<2.0.17",
-                "symfony/validator": ">=2,<2.0.24|>=2.1,<2.1.12|>=2.2,<2.2.5|>=2.3,<2.3.3",
-                "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
-                "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
-                "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
-                "twig/twig": "<1.20",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.22|>=8,<8.7.5",
-                "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
-                "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
-                "willdurand/js-translation-bundle": "<2.1.1",
-                "yiisoft/yii": ">=1.1.14,<1.1.15",
-                "yiisoft/yii2": "<2.0.5",
-                "yiisoft/yii2-bootstrap": "<2.0.4",
-                "yiisoft/yii2-dev": "<2.0.4",
-                "yiisoft/yii2-gii": "<2.0.4",
-                "yiisoft/yii2-jui": "<2.0.4",
-                "zendframework/zend-cache": ">=2.4,<2.4.8|>=2.5,<2.5.3",
-                "zendframework/zend-captcha": ">=2,<2.4.9|>=2.5,<2.5.2",
-                "zendframework/zend-crypt": ">=2,<2.4.9|>=2.5,<2.5.2",
-                "zendframework/zend-db": ">=2,<2.0.99|>=2.1,<2.1.99|>=2.2,<2.2.10|>=2.3,<2.3.5",
-                "zendframework/zend-diactoros": ">=1,<1.0.4",
-                "zendframework/zend-form": ">=2,<2.2.7|>=2.3,<2.3.1",
-                "zendframework/zend-http": ">=2,<2.0.99|>=2.1,<2.1.99|>=2.3,<2.3.8|>=2.4,<2.4.1",
-                "zendframework/zend-json": ">=2.1,<2.1.6|>=2.2,<2.2.6",
-                "zendframework/zend-ldap": ">=2,<2.0.99|>=2.1,<2.1.99|>=2.2,<2.2.8|>=2.3,<2.3.3",
-                "zendframework/zend-mail": ">=2,<2.4.11|>=2.5,<2.7.2",
-                "zendframework/zend-navigation": ">=2,<2.2.7|>=2.3,<2.3.1",
-                "zendframework/zend-session": ">=2,<2.0.99|>=2.1,<2.1.99|>=2.2,<2.2.9|>=2.3,<2.3.4",
-                "zendframework/zend-validator": ">=2.3,<2.3.6",
-                "zendframework/zend-view": ">=2,<2.2.7|>=2.3,<2.3.1",
-                "zendframework/zend-xmlrpc": ">=2.1,<2.1.6|>=2.2,<2.2.6",
-                "zendframework/zendframework": ">=2,<2.4.11|>=2.5,<2.5.1",
-                "zendframework/zendframework1": "<1.12.20",
-                "zendframework/zendopenid": ">=2,<2.0.2",
-                "zendframework/zendxml": ">=1,<1.0.1",
-                "zetacomponents/mail": "<1.8.2",
-                "zf-commons/zfc-user": "<1.2.2",
-                "zfcampus/zf-apigility-doctrine": ">=1,<1.0.3",
-                "zfr/zfr-oauth2-server-module": "<0.1.2"
-            },
-            "type": "metapackage",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "role": "maintainer"
-                }
-            ],
-            "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-12-24T19:52:27+00:00"
-        },
-        {
             "name": "sensio/distribution-bundle",
             "version": "v5.0.21",
             "source": {
@@ -4823,16 +4665,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v4.1.6",
+            "version": "v4.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "387b6a3b723ba35588b33d5f8d14e28ed608bd30"
+                "reference": "d539ccba2b4dce515de04f16b7ed7ae5b9eeb434"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/387b6a3b723ba35588b33d5f8d14e28ed608bd30",
-                "reference": "387b6a3b723ba35588b33d5f8d14e28ed608bd30",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/d539ccba2b4dce515de04f16b7ed7ae5b9eeb434",
+                "reference": "d539ccba2b4dce515de04f16b7ed7ae5b9eeb434",
                 "shasum": ""
             },
             "require": {
@@ -4864,7 +4706,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-10-29T18:48:08+00:00"
+            "time": "2018-01-11T05:54:03+00:00"
         },
         {
             "name": "simplepie/simplepie",
@@ -4928,16 +4770,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
+                "reference": "7ffc1ea296ed14bf8260b6ef11b80208dbadba91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/7ffc1ea296ed14bf8260b6ef11b80208dbadba91",
+                "reference": "7ffc1ea296ed14bf8260b6ef11b80208dbadba91",
                 "shasum": ""
             },
             "require": {
@@ -4972,13 +4814,13 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.org",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-01T15:54:03+00:00"
+            "time": "2018-01-23T07:37:21+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -5444,16 +5286,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03"
+                "reference": "21abeae69baf64d689b04ca33663b4354be1a226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/29961b693fa2157a3f349d1a801f9f8742be4e03",
-                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/21abeae69baf64d689b04ca33663b4354be1a226",
+                "reference": "21abeae69baf64d689b04ca33663b4354be1a226",
                 "shasum": ""
             },
             "require": {
@@ -5595,7 +5437,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-12-15T02:05:35+00:00"
+            "time": "2018-01-05T08:33:31+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
@@ -5965,9 +5807,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "roave/security-advisories": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -5975,6 +5815,6 @@
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "5.6.32"
+        "php": "5.6.33"
     }
 }
