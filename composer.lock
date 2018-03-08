@@ -810,7 +810,7 @@
         },
         {
             "name": "contao/calendar-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/calendar-bundle.git",
@@ -877,7 +877,7 @@
         },
         {
             "name": "contao/comments-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/comments-bundle.git",
@@ -938,16 +938,16 @@
         },
         {
             "name": "contao/core-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/core-bundle.git",
-                "reference": "57107f6375ca0b7494060ca4daa99756232f7bf8"
+                "reference": "821041b5ed2dacc4e0aa96cbb0f23c377163fcbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contao/core-bundle/zipball/57107f6375ca0b7494060ca4daa99756232f7bf8",
-                "reference": "57107f6375ca0b7494060ca4daa99756232f7bf8",
+                "url": "https://api.github.com/repos/contao/core-bundle/zipball/821041b5ed2dacc4e0aa96cbb0f23c377163fcbd",
+                "reference": "821041b5ed2dacc4e0aa96cbb0f23c377163fcbd",
                 "shasum": ""
             },
             "require": {
@@ -1073,11 +1073,11 @@
                 }
             ],
             "description": "Contao 4 core bundle",
-            "time": "2018-03-06T07:48:45+00:00"
+            "time": "2018-03-08T14:12:11+00:00"
         },
         {
             "name": "contao/faq-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/faq-bundle.git",
@@ -1243,7 +1243,7 @@
         },
         {
             "name": "contao/installation-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/installation-bundle.git",
@@ -1304,7 +1304,7 @@
         },
         {
             "name": "contao/listing-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/listing-bundle.git",
@@ -1365,7 +1365,7 @@
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
@@ -1484,7 +1484,7 @@
         },
         {
             "name": "contao/news-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/news-bundle.git",
@@ -1551,7 +1551,7 @@
         },
         {
             "name": "contao/newsletter-bundle",
-            "version": "4.4.15",
+            "version": "4.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/newsletter-bundle.git",
