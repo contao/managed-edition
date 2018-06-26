@@ -1367,7 +1367,7 @@
         },
         {
             "name": "contao/manager-bundle",
-            "version": "4.4.19",
+            "version": "4.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contao/manager-bundle.git",
@@ -5345,20 +5345,20 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.10",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "816bf5030e3ac7cf6a88575a27138a088d3041b0"
+                "reference": "c36f8cb21b5f1661a14fdb8cef9cc611d54a3494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/816bf5030e3ac7cf6a88575a27138a088d3041b0",
-                "reference": "816bf5030e3ac7cf6a88575a27138a088d3041b0",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c36f8cb21b5f1661a14fdb8cef9cc611d54a3494",
+                "reference": "c36f8cb21b5f1661a14fdb8cef9cc611d54a3494",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.4",
+                "doctrine/common": "~2.4@stable",
                 "ext-xml": "*",
                 "fig/link-util": "^1.0",
                 "php": "^5.5.9|>=7.0.8",
@@ -5496,7 +5496,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-05-21T13:44:23+00:00"
+            "time": "2018-06-25T12:29:33+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
@@ -5562,30 +5562,30 @@
         },
         {
             "name": "terminal42/header-replay-bundle",
-            "version": "1.4.4",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/terminal42/header-replay-bundle.git",
-                "reference": "a192b3972d0472fd8d828108a4da9a3a2706d5c2"
+                "reference": "e05a0d26c52609f3f08948ed5c1f5475febfd2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terminal42/header-replay-bundle/zipball/a192b3972d0472fd8d828108a4da9a3a2706d5c2",
-                "reference": "a192b3972d0472fd8d828108a4da9a3a2706d5c2",
+                "url": "https://api.github.com/repos/terminal42/header-replay-bundle/zipball/e05a0d26c52609f3f08948ed5c1f5475febfd2b7",
+                "reference": "e05a0d26c52609f3f08948ed5c1f5475febfd2b7",
                 "shasum": ""
             },
             "require": {
-                "friendsofsymfony/http-cache": "2.*",
-                "friendsofsymfony/http-cache-bundle": "2.*",
-                "php": ">=5.6,<8",
-                "symfony/options-resolver": "^3.3"
+                "friendsofsymfony/http-cache": "^2.1",
+                "friendsofsymfony/http-cache-bundle": "^2.1",
+                "php": "^5.6 | ^7.0",
+                "symfony/options-resolver": "^3.3 | ^4.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1",
                 "leofeyer/optimize-native-functions-fixer": "^1.1",
+                "php-coveralls/php-coveralls": "^2.1",
                 "php-http/guzzle6-adapter": "^1.1",
-                "phpunit/phpunit": "^5.7",
-                "satooshi/php-coveralls": "2.*@dev"
+                "phpunit/phpunit": "^5.7"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -5604,7 +5604,7 @@
                 }
             ],
             "description": "Send preflight requests for user context headers and replay them for reverse proxy support.",
-            "time": "2018-03-02T11:09:45+00:00"
+            "time": "2018-06-25T08:10:01+00:00"
         },
         {
             "name": "true/punycode",
