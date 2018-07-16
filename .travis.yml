@@ -25,8 +25,11 @@ matrix:
       env: COMPOSER_COMMAND=update
   fast_finish: true
 
+before_install:
+  - echo "memory_limit=-1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
 install:
-  - composer $COMPOSER_COMMAND --no-interaction
+  - composer $COMPOSER_COMMAND --no-interaction --no-suggest
 
 script:
   - php vendor/bin/security-checker security:check --end-point=http://security.sensiolabs.org/check_lock
