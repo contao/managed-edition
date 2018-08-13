@@ -20,15 +20,14 @@
         "contao/newsletter-bundle": "^4.4"
     },
     "conflict": {
+        "contao-components/installer": "<1.3",
         "contao/core-bundle": "<4.4.8"
-    },
-    "config": {
-        "component-dir": "assets"
     },
     "extra": {
         "branch-alias": {
             "dev-4.4": "4.4.x-dev"
-        }
+        },
+        "contao-component-dir": "assets"
     },
     "scripts": {
         "post-install-cmd": [
