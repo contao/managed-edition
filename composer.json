@@ -23,11 +23,11 @@
         "contao-components/installer": "<1.3"
     },
     "require-dev": {
-        "sensiolabs/security-checker": "^4.1"
+        "sensiolabs/security-checker": "^5.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-4.6": "4.6.x-dev"
+            "dev-4.7": "4.7.x-dev"
         },
         "contao-component-dir": "assets"
     },
