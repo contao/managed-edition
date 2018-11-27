@@ -11,6 +11,13 @@
     ],
     "require": {
         "php": "^7.1",
+        "ext-dom": "*",
+        "ext-gd": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-pcre": "*",
+        "ext-pdo": "*",
+        "ext-zlib": "*",
         "contao/calendar-bundle": "^4.5",
         "contao/comments-bundle": "^4.5",
         "contao/faq-bundle": "^4.5",
