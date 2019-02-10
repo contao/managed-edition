@@ -18,13 +18,13 @@
         "ext-pcre": "*",
         "ext-pdo": "*",
         "ext-zlib": "*",
-        "contao/calendar-bundle": "^4.5",
-        "contao/comments-bundle": "^4.5",
-        "contao/faq-bundle": "^4.5",
-        "contao/listing-bundle": "^4.5",
-        "contao/manager-bundle": "4.5.*",
-        "contao/news-bundle": "^4.5",
-        "contao/newsletter-bundle": "^4.5"
+        "contao/calendar-bundle": "^4.8",
+        "contao/comments-bundle": "^4.8",
+        "contao/faq-bundle": "^4.8",
+        "contao/listing-bundle": "^4.8",
+        "contao/manager-bundle": "4.8.*",
+        "contao/news-bundle": "^4.8",
+        "contao/newsletter-bundle": "^4.8"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
@@ -34,7 +34,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-4.7": "4.7.x-dev"
+            "dev-master": "4.8.x-dev"
         },
         "contao-component-dir": "assets"
     },
