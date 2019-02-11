@@ -43,6 +43,8 @@
             "App\\": "src/"
         }
     },
+    "minimum-stability": "RC",
+    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
             "Contao\\ManagerBundle\\Composer\\ScriptHandler::initializeApplication"
