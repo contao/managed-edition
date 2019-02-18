@@ -24,7 +24,8 @@
         "contao/listing-bundle": "^4.7",
         "contao/manager-bundle": "4.7.*",
         "contao/news-bundle": "^4.7",
-        "contao/newsletter-bundle": "^4.7"
+        "contao/newsletter-bundle": "^4.7",
+        "contao/conflicts": "*@dev"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
