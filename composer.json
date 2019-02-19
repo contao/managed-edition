@@ -13,6 +13,7 @@
         "php": "^5.6 || ^7.0",
         "contao/calendar-bundle": "^4.4",
         "contao/comments-bundle": "^4.4",
+        "contao/conflicts": "@dev",
         "contao/faq-bundle": "^4.4",
         "contao/listing-bundle": "^4.4",
         "contao/manager-bundle": "4.4.*",
