@@ -34,9 +34,6 @@
         "sensiolabs/security-checker": "^5.0"
     },
     "extra": {
-        "branch-alias": {
-            "dev-4.7": "4.7.x-dev"
-        },
         "contao-component-dir": "assets"
     },
     "autoload": {
