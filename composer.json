@@ -25,9 +25,6 @@
         "contao/core-bundle": "<4.4.8"
     },
     "extra": {
-        "branch-alias": {
-            "dev-4.4": "4.4.x-dev"
-        },
         "contao-component-dir": "assets"
     },
     "scripts": {
