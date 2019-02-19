@@ -20,6 +20,7 @@
         "ext-zlib": "*",
         "contao/calendar-bundle": "^4.8",
         "contao/comments-bundle": "^4.8",
+        "contao/conflicts": "@dev",
         "contao/faq-bundle": "^4.8",
         "contao/listing-bundle": "^4.8",
         "contao/manager-bundle": "4.8.*",
