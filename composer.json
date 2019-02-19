@@ -20,12 +20,12 @@
         "ext-zlib": "*",
         "contao/calendar-bundle": "^4.7",
         "contao/comments-bundle": "^4.7",
+        "contao/conflicts": "*@dev",
         "contao/faq-bundle": "^4.7",
         "contao/listing-bundle": "^4.7",
         "contao/manager-bundle": "4.7.*",
         "contao/news-bundle": "^4.7",
-        "contao/newsletter-bundle": "^4.7",
-        "contao/conflicts": "*@dev"
+        "contao/newsletter-bundle": "^4.7"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
