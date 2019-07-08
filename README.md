@@ -11,9 +11,7 @@ for more information.
  * MySQL 5.5.7+
  * InnoDB with `innodb_large_prefix` enabled
 
-
-InnoDB large prefix
--------------------
+## InnoDB large prefix
 
 MySQL versions prior to 5.7.7 do not have the `innodb_large_prefix` option
 enabled by default. To enable it in one of these versions, add the following
@@ -38,6 +36,10 @@ doctrine:
                     collate: utf8_unicode_ci
                     engine: MyISAM
 ```
+
+## Browser compatibility
+
+Chrome, Firefox, Safari 12+, IE 11, Edge 17+, Opera, Chrome for Android, Safari for iOS 11.3+, Samsung Internet 8.2+
 
 ## Installation
 
