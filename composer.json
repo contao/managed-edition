@@ -34,9 +34,6 @@
         "sensiolabs/security-checker": "^5.0"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "4.8.x-dev"
-        },
         "contao-component-dir": "assets"
     },
     "autoload": {
@@ -44,7 +41,7 @@
             "App\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
