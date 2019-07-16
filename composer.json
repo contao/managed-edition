@@ -35,7 +35,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.8.x-dev"
+            "dev-master": "4.9.x-dev"
         },
         "contao-component-dir": "assets"
     },
