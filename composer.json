@@ -18,14 +18,14 @@
         "ext-pcre": "*",
         "ext-pdo": "*",
         "ext-zlib": "*",
-        "contao/calendar-bundle": "^4.8",
-        "contao/comments-bundle": "^4.8",
+        "contao/calendar-bundle": "^4.9",
+        "contao/comments-bundle": "^4.9",
         "contao/conflicts": "@dev",
-        "contao/faq-bundle": "^4.8",
-        "contao/listing-bundle": "^4.8",
-        "contao/manager-bundle": "4.8.*",
-        "contao/news-bundle": "^4.8",
-        "contao/newsletter-bundle": "^4.8"
+        "contao/faq-bundle": "^4.9",
+        "contao/listing-bundle": "^4.9",
+        "contao/manager-bundle": "4.9.*",
+        "contao/news-bundle": "^4.9",
+        "contao/newsletter-bundle": "^4.9"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
