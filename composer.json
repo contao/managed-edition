@@ -34,6 +34,9 @@
         "sensiolabs/security-checker": "^5.0"
     },
     "extra": {
+        "symfony": {
+            "require": "^4.2"
+        },
         "contao-component-dir": "assets"
     },
     "autoload": {
