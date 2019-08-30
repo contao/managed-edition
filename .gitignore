@@ -1,7 +1,3 @@
-# App config
-/config/parameters.yml
-/app/config/parameters.yml
-
 # Composer
 /.htaccess
 /composer.lock
