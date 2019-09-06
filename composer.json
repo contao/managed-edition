@@ -11,13 +11,6 @@
     ],
     "require": {
         "php": "^7.1",
-        "ext-dom": "*",
-        "ext-gd": "*",
-        "ext-intl": "*",
-        "ext-json": "*",
-        "ext-pcre": "*",
-        "ext-pdo": "*",
-        "ext-zlib": "*",
         "contao/calendar-bundle": "^4.9",
         "contao/comments-bundle": "^4.9",
         "contao/conflicts": "@dev",
@@ -30,14 +23,14 @@
     "conflict": {
         "contao-components/installer": "<1.3"
     },
-    "require-dev": {
-        "sensiolabs/security-checker": "^5.0"
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "4.9.x-dev"
         },
-        "contao-component-dir": "assets"
+        "contao-component-dir": "assets",
+        "symfony": {
+            "require": "^4.2"
+        }
     },
     "autoload": {
         "psr-4": {
