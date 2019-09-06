@@ -1,5 +1,5 @@
-# App config
-/app/config/parameters.yml
+# Configuration
+/config/parameters.yml
 
 # Composer
 /.htaccess

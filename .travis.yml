@@ -3,7 +3,7 @@ dist: xenial
 
 cache:
   directories:
-    - $HOME/.composer/cache
+    - $HOME/.composer
 
 env:
   global:
@@ -15,26 +15,44 @@ jobs:
     - stage: test
       php: 7.1
       install:
-        - phpenv config-rm xdebug.ini || true
-        - composer update --no-interaction --no-suggest
+        - install_dependencies
       script:
         - php vendor/bin/security-checker security:check
 
     - stage: test
       php: 7.2
       install:
-        - phpenv config-rm xdebug.ini || true
-        - composer update --no-interaction --no-suggest
+        - install_dependencies
       script:
         - php vendor/bin/security-checker security:check
 
     - stage: test
       php: 7.3
       install:
-        - phpenv config-rm xdebug.ini || true
-        - composer update --no-interaction --no-suggest
+        - install_dependencies
+      script:
+        - php vendor/bin/security-checker security:check
+
+    - stage: test
+      php: 7.4snapshot
+      install:
+        - install_dependencies
       script:
         - php vendor/bin/security-checker security:check
 
   allow_failures:
-    - php: nightly
+    - php: 7.4snapshot
+
+before_install:
+  - |
+    # Helper functions
+    install_dependencies () {
+      php -r '
+        $data = json_decode(file_get_contents(__DIR__."/composer.json"), true);
+        $data["require-dev"] = ["sensiolabs/security-checker" => "^5.0"];
+        file_put_contents(__DIR__."/composer.json", json_encode($data, JSON_UNESCAPED_SLASHES));
+      '
+      composer update --no-interaction --no-suggest
+    }
+  - phpenv config-rm xdebug.ini || true
+  - composer global require symfony/flex
