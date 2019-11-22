@@ -42,7 +42,7 @@ doctrine:
 See the [system settings chapter][2] of the user's manual for further information.
 
 
-## Browser compatibility
+## Browser Compatibility
 
 Chrome, Firefox, Safari 12+, IE 11, Edge 17+, Opera, Chrome for Android, Safari for iOS 11.3+, Samsung Internet 8.2+
 
