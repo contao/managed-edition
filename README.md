@@ -63,7 +63,7 @@ See the [installation chapter][3] of the user's manual.
 Contao is licensed under the terms of the LGPLv3.
 
 
-## Getting support
+## Getting Support
 
 Visit the [support page][6] to learn about the available support options.
 
