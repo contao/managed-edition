@@ -56,7 +56,6 @@ See the [installation chapter][3] of the user's manual.
 
  * [User Manual][4]
  * [Developer Documentation][5]
- * [Cookbook][6]
 
 
 ## License
@@ -66,7 +65,7 @@ Contao is licensed under the terms of the LGPLv3.
 
 ## Getting support
 
-Visit the [support page][7] to learn about the available support options.
+Visit the [support page][6] to learn about the available support options.
 
 
 [1]: https://contao.org
@@ -74,5 +73,4 @@ Visit the [support page][7] to learn about the available support options.
 [3]: https://docs.contao.org/manual/de/installation/
 [4]: https://docs.contao.org/manual/
 [5]: https://docs.contao.org/dev/
-[6]: https://docs.contao.org/books/cookbook/
-[7]: https://contao.org/support.html
+[6]: https://contao.org/support.html
