@@ -13,7 +13,7 @@ for more information.
  * InnoDB with `innodb_large_prefix` enabled
 
 
-## InnoDB large prefix
+## InnoDB Large Prefix
 
 MySQL versions prior to 5.7.7 do not have the `innodb_large_prefix` option
 enabled by default. To enable it in one of these versions, add the following
