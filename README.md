@@ -5,7 +5,7 @@ professional website that is easy to maintain. Visit the [project website][1]
 for more information.
 
 
-## System requirements
+## System Requirements
 
  * Web server
  * PHP 7.1+ with GDlib, DOM and Phar
