@@ -4,14 +4,12 @@ Contao is an Open Source PHP Content Management System for people who want a
 professional website that is easy to maintain. Visit the [project website][1]
 for more information.
 
-
 ## System Requirements
 
  * Web server
- * PHP 7.1+ with GDlib, DOM and Phar
+ * PHP 7.2+ with GDlib, DOM and Phar
  * MySQL 5.5.7+
  * InnoDB with `innodb_large_prefix` enabled
-
 
 ## InnoDB Large Prefix
 
@@ -41,32 +39,26 @@ doctrine:
 
 See the [system settings chapter][2] of the user's manual for further information.
 
-
 ## Browser Compatibility
 
 Chrome, Firefox, Safari 12+, IE 11, Edge 17+, Opera, Chrome for Android, Safari for iOS 11.3+, Samsung Internet 8.2+
 
-
 ## Installation
 
 See the [installation chapter][3] of the user's manual.
-
 
 ## Documentation
 
  * [User Manual][4]
  * [Developer Documentation][5]
 
-
 ## License
 
 Contao is licensed under the terms of the LGPLv3.
 
-
 ## Getting Support
 
 Visit the [support page][6] to learn about the available support options.
-
 
 [1]: https://contao.org
 [2]: https://docs.contao.org/manual/de/system/einstellungen/#config-yml
