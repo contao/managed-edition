@@ -65,4 +65,4 @@ Visit the [support page][6] to learn about the available support options.
 [3]: https://docs.contao.org/manual/de/installation/
 [4]: https://docs.contao.org/manual/
 [5]: https://docs.contao.org/dev/
-[6]: https://contao.org/support.html
+[6]: https://contao.org/en/support.html
