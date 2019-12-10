@@ -61,7 +61,7 @@ Contao is licensed under the terms of the LGPLv3.
 Visit the [support page][6] to learn about the available support options.
 
 [1]: https://contao.org
-[2]: https://docs.contao.org/manual/de/system/einstellungen/#config-yml
+[2]: https://docs.contao.org/dev/reference/config/
 [2]: https://docs.contao.org/dev/getting-started/initial-setup/
 [4]: https://docs.contao.org/manual/
 [5]: https://docs.contao.org/dev/
