@@ -13,13 +13,6 @@ env:
 jobs:
   include:
     - stage: test
-      php: 7.1
-      install:
-        - install_dependencies
-      script:
-        - php vendor/bin/security-checker security:check
-
-    - stage: test
       php: 7.2
       install:
         - install_dependencies
