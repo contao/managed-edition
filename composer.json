@@ -32,11 +32,6 @@
             "require": "^4.2"
         }
     },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
