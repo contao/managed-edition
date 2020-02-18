@@ -29,7 +29,7 @@
         },
         "contao-component-dir": "assets",
         "symfony": {
-            "require": "^4.2"
+            "require": "^4.4"
         }
     },
     "minimum-stability": "dev",
