@@ -62,7 +62,7 @@ Visit the [support page][6] to learn about the available support options.
 
 [1]: https://contao.org
 [2]: https://docs.contao.org/dev/reference/config/
-[2]: https://docs.contao.org/dev/getting-started/initial-setup/
+[3]: https://docs.contao.org/dev/getting-started/initial-setup/
 [4]: https://docs.contao.org/manual/
 [5]: https://docs.contao.org/dev/
 [6]: https://contao.org/en/support.html
