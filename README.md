@@ -7,7 +7,7 @@ for more information.
 ## System Requirements
 
  * Web server
- * PHP 7.2+ with GDlib, DOM and Phar
+ * PHP 7.2+ with GDlib and DOM
  * MySQL 5.5.7+
  * InnoDB with `innodb_large_prefix` enabled
 
