@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.3",
         "contao/calendar-bundle": "^4.11",
         "contao/comments-bundle": "^4.11",
         "contao/conflicts": "@dev",
