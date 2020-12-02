@@ -1,16 +1,9 @@
 {
     "name": "contao/managed-edition",
     "type": "project",
-    "description": "Contao Open Source CMS",
+    "description": "Contao Managed Edition",
     "license": "LGPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
-        }
-    ],
     "require": {
-        "php": "^7.3",
         "contao/calendar-bundle": "^4.11",
         "contao/comments-bundle": "^4.11",
         "contao/conflicts": "@dev",
@@ -27,10 +20,7 @@
         "branch-alias": {
             "dev-master": "4.11.x-dev"
         },
-        "contao-component-dir": "assets",
-        "symfony": {
-            "require": "4.4.*"
-        }
+        "contao-component-dir": "assets"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
