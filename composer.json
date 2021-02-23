@@ -24,10 +24,10 @@
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
-            "contao-setup"
+            "@php vendor/bin/contao-setup"
         ],
         "post-update-cmd": [
-            "contao-setup"
+            "@php vendor/bin/contao-setup"
         ]
     }
 }
