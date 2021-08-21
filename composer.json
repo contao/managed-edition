@@ -19,8 +19,6 @@
     "extra": {
         "contao-component-dir": "assets"
     },
-    "minimum-stability": "RC",
-    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
             "@php vendor/bin/contao-setup"
