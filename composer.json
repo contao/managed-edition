@@ -4,14 +4,14 @@
     "description": "Contao Managed Edition",
     "license": "LGPL-3.0-or-later",
     "require": {
-        "contao/calendar-bundle": "^4.12",
-        "contao/comments-bundle": "^4.12",
+        "contao/calendar-bundle": "^4.13",
+        "contao/comments-bundle": "^4.13",
         "contao/conflicts": "@dev",
-        "contao/faq-bundle": "^4.12",
-        "contao/listing-bundle": "^4.12",
-        "contao/manager-bundle": "4.12.*",
-        "contao/news-bundle": "^4.12",
-        "contao/newsletter-bundle": "^4.12"
+        "contao/faq-bundle": "^4.13",
+        "contao/listing-bundle": "^4.13",
+        "contao/manager-bundle": "4.13.*",
+        "contao/news-bundle": "^4.13",
+        "contao/newsletter-bundle": "^4.13"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
