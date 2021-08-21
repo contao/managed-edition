@@ -48,7 +48,7 @@ accordingly:
 ```
 [mysqld]
 …
-sql_mode="STRICT_TRANS_TABLES"
+sql_mode="TRADITIONAL"
 …
 ```
 
