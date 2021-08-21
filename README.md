@@ -64,6 +64,8 @@ doctrine:
                     1002: "SET SESSION sql_mode=(SELECT CONCAT(@@sql_mode, ',TRADITIONAL'))"
 ```
 
+Note: For MySQLi the key is named `3` instead of `1002` which is shown only if PDO is used.
+
 See the [system settings chapter][2] of the user's manual for further information.
 
 ## Browser Compatibility
