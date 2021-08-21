@@ -8,7 +8,7 @@ for more information.
 
  * Web server
  * PHP 7.3+ with GDlib and DOM
- * MySQL 5.5.7+
+ * MySQL 5.5.7+ (MySQL Strict Mode is recommended)
  * InnoDB with `innodb_large_prefix` enabled
 
 ## InnoDB Large Prefix
@@ -35,6 +35,33 @@ doctrine:
                     charset: utf8
                     collate: utf8_unicode_ci
                     engine: MyISAM
+```
+
+## MySQL Strict Mode
+
+It is recommended to run MySQL in "strict mode" to prevent corrupt or truncated
+data and to guarantee data integrity. As of Contao 4.12, the install tool shows
+a warning if the database server is not running in strict mode. To enable it,
+add the following to your `my.cnf` file or make sure that the setting is adjusted
+accordingly:
+
+```
+[mysqld]
+…
+sql_mode="STRICT_TRANS_TABLES"
+…
+```
+
+If the setting cannot be enabled on your server, please configure the connection
+options in your `config/config.yml` file:
+
+```yml
+doctrine:
+    dbal:
+        connections:
+            default:
+                options:
+                    1002: "SET SESSION sql_mode=(SELECT CONCAT(@@sql_mode, ',TRADITIONAL'))"
 ```
 
 See the [system settings chapter][2] of the user's manual for further information.
