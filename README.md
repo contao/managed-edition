@@ -8,7 +8,7 @@ for more information.
 
  * Web server
  * PHP 7.3+ with GDlib and DOM
- * MySQL 5.5.7+ (MySQL Strict Mode is recommended)
+ * MySQL 5.5.7+
  * InnoDB with `innodb_large_prefix` enabled
 
 ## InnoDB Large Prefix
