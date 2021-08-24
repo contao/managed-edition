@@ -37,6 +37,32 @@ doctrine:
                     engine: MyISAM
 ```
 
+## MySQL Strict Mode
+
+It is recommended to run MySQL in "strict mode" to prevent corrupt or truncated
+data and to guarantee data integrity. As of Contao 4.12, the install tool shows
+a warning if the database server is not running in strict mode. To enable it,
+add the following to your `my.cnf` file or make sure that the setting is adjusted
+accordingly:
+
+```
+[mysqld]
+…
+sql_mode="TRADITIONAL"
+…
+```
+
+If the setting cannot be enabled on your server, please configure the connection
+options in your `config/config.yml` file:
+
+```yml
+doctrine:
+    dbal:
+        connections:
+            default:
+                options:
+                    # Depending on the DB driver, the option key is either 1002 (pdo_mysql) or 3 (mysqli)
+                    1002: "SET SESSION sql_mode=(SELECT CONCAT(@@sql_mode, ',TRADITIONAL'))"
 See the [system settings chapter][2] of the user's manual for further information.
 
 ## Browser Compatibility
