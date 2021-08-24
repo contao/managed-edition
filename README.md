@@ -63,7 +63,7 @@ doctrine:
                 options:
                     # Depending on the DB driver, the option key is either 1002 (pdo_mysql) or 3 (mysqli)
                     1002: "SET SESSION sql_mode=(SELECT CONCAT(@@sql_mode, ',TRADITIONAL'))"
-See the [system settings chapter][2] of the user's manual for further information.
+```
 
 ## Browser Compatibility
 
@@ -71,12 +71,12 @@ Chrome, Firefox, Safari 12+, IE 11, Edge 17+, Opera, Chrome for Android, Safari 
 
 ## Installation
 
-See the [installation chapter][3] of the user's manual.
+See the [installation chapter][2] of the user's manual.
 
 ## Documentation
 
- * [User Manual][4]
- * [Developer Documentation][5]
+ * [User Manual][3]
+ * [Developer Documentation][4]
 
 ## License
 
@@ -84,11 +84,10 @@ Contao is licensed under the terms of the LGPLv3.
 
 ## Getting Support
 
-Visit the [support page][6] to learn about the available support options.
+Visit the [support page][5] to learn about the available support options.
 
 [1]: https://contao.org
-[2]: https://docs.contao.org/dev/reference/config/
-[3]: https://docs.contao.org/dev/getting-started/initial-setup/
-[4]: https://docs.contao.org/manual/
-[5]: https://docs.contao.org/dev/
-[6]: https://contao.org/en/support.html
+[2]: https://docs.contao.org/dev/getting-started/initial-setup/
+[3]: https://docs.contao.org/manual/
+[4]: https://docs.contao.org/dev/
+[5]: https://contao.org/en/support.html
