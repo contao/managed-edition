@@ -4,18 +4,20 @@
     "license": "LGPL-3.0-or-later",
     "type": "project",
     "require": {
-        "contao/calendar-bundle": "^4.13",
-        "contao/comments-bundle": "^4.13",
+        "contao/calendar-bundle": "^5.0",
+        "contao/comments-bundle": "^5.0",
         "contao/conflicts": "@dev",
-        "contao/faq-bundle": "^4.13",
-        "contao/listing-bundle": "^4.13",
-        "contao/manager-bundle": "4.13.*",
-        "contao/news-bundle": "^4.13",
-        "contao/newsletter-bundle": "^4.13"
+        "contao/faq-bundle": "^5.0",
+        "contao/listing-bundle": "^5.0",
+        "contao/manager-bundle": "5.0.*",
+        "contao/news-bundle": "^5.0",
+        "contao/newsletter-bundle": "^5.0"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
@@ -27,8 +29,6 @@
     "extra": {
         "contao-component-dir": "assets"
     },
-    "minimum-stability": "RC",
-    "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
             "@php vendor/bin/contao-setup"
