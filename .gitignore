@@ -2,8 +2,6 @@
 /config/parameters.yml
 
 # Composer
-/.htaccess
-/composer.lock
 /vendor/
 
 # Contao Manager
