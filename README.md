@@ -1,4 +1,4 @@
-# Contao 4 Managed Edition
+# Contao Managed Edition
 
 Contao is an Open Source PHP Content Management System for people who want a
 professional website that is easy to maintain. Visit the [project website][1]
@@ -7,7 +7,7 @@ for more information.
 ## System Requirements
 
  * Web server
- * PHP 7.3+ with GDlib and DOM
+ * PHP 8.1+ with GDlib and DOM
  * MySQL 5.5.7+
  * InnoDB with `innodb_large_prefix` enabled
 
@@ -67,7 +67,7 @@ doctrine:
 
 ## Browser Compatibility
 
-Chrome, Firefox, Safari 12+, IE 11, Edge 17+, Opera, Chrome for Android, Safari for iOS 11.3+, Samsung Internet 8.2+
+Chrome, Firefox, Safari 12+, Edge 17+, Opera, Chrome for Android, Safari for iOS 11.3+, Samsung Internet 8.2+
 
 ## Installation
 
