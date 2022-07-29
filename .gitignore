@@ -1,5 +1,6 @@
 # Configuration
 /config/parameters.yml
+/.env.local
 
 # Composer
 /vendor/
