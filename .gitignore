@@ -1,5 +1,4 @@
 # Configuration
-/config/parameters.yml
 /.env.local
 
 # Composer
@@ -15,10 +14,8 @@
 /system/*
 !/system/config/
 /system/config/localconfig.php
-/system/config/tcpdf.php
 /templates/
 /var/
-/web/
 
 # Skip files
 /system/modules/*/.skip
