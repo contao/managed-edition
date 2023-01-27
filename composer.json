@@ -4,14 +4,14 @@
     "license": "LGPL-3.0-or-later",
     "type": "project",
     "require": {
-        "contao/calendar-bundle": "^5.1",
-        "contao/comments-bundle": "^5.1",
+        "contao/calendar-bundle": "^5.2",
+        "contao/comments-bundle": "^5.2",
         "contao/conflicts": "@dev",
-        "contao/faq-bundle": "^5.1",
-        "contao/listing-bundle": "^5.1",
-        "contao/manager-bundle": "5.1.*",
-        "contao/news-bundle": "^5.1",
-        "contao/newsletter-bundle": "^5.1"
+        "contao/faq-bundle": "^5.2",
+        "contao/listing-bundle": "^5.2",
+        "contao/manager-bundle": "5.2.*",
+        "contao/news-bundle": "^5.2",
+        "contao/newsletter-bundle": "^5.2"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
