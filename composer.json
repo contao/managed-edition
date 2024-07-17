@@ -28,7 +28,7 @@
         }
     },
     "extra": {
-        "contao-component-dir": "assets"
+        "contao-component-dir": "public/assets"
     },
     "scripts": {
         "post-install-cmd": [
