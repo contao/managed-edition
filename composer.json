@@ -16,7 +16,7 @@
     "conflict": {
         "contao-components/installer": "<1.3"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "RC",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
